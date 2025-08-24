@@ -12,5 +12,5 @@ parser = StrOutputParser()
 
 chain = prompt | model | parser 
 
-res = chain.invoke({'country': 'India'}) 
+res = chain.invoke({'country': 'Brazil'}) 
 print(res)
